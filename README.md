@@ -12,4 +12,3 @@ This project was developed by Calvitoria (me), [Mayara](https://github.com/mayar
    <img align="center" alt="capa" src="https://user-images.githubusercontent.com/95686401/184922718-1d6e0e83-3940-4f27-9fdf-47b57ab41d07.gif" />
 </div>
 
-## You can also play [here]()
