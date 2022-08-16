@@ -1,0 +1,62 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://user-images.githubusercontent.com/95686401/177012656-44400641-083c-4376-a603-dd8598dd8beb.jpg');
+    background-size: cover;
+}
+
+.wrapper {
+    background-image: url('https://user-images.githubusercontent.com/95686401/177013068-8e9b615e-13f6-41b9-8f59-aadce9e993cf.png');
+    background-size: cover;
+    color: white;
+    width: 600px;
+    height: 450px;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.text-wrapper img {
+    width: 80px;
+    border-radius: 50%;
+    border: 6px solid rgb(117, 46, 18);
+}
+
+.text-wrapper p {
+    font-family: 'Slackey', cursive;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.text-wrapper button {
+    margin-top: 20px;
+    padding: 5px 15px;
+    margin-left: 5px;
+    background-color: rgb(31, 141, 31);
+    border: 2px solid rgb(104, 177, 37);
+    border-radius: 0.3em;
+    font-family: 'Slackey', cursive;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.text-wrapper button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.text-wrapper button:active {
+    transform: translateY(2px);
+}

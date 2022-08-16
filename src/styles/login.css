@@ -1,0 +1,98 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('https://user-images.githubusercontent.com/95686401/177012656-44400641-083c-4376-a603-dd8598dd8beb.jpg');
+    background-size: cover;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+form {
+    font-family: 'Slackey', cursive;
+    color: white;
+    width: 600px;
+    height: 450px;
+    background-image: url('https://user-images.githubusercontent.com/95686401/177013068-8e9b615e-13f6-41b9-8f59-aadce9e993cf.png');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    text-align: center;
+    width: 195px;
+    background-color: rgb(116, 41, 7);
+    color: white;
+    border-radius: 0.2em;
+    border: none;
+    padding: 5px 2px;
+}
+
+form input::placeholder {
+  color: rgb(116, 41, 7);    
+}
+
+form h3 {
+    font-family: 'Slackey', cursive;
+    text-transform: uppercase;
+    font-size: 52px;
+    margin: 0;
+}
+
+.btns {
+    display: flex;
+}
+
+.play {
+    margin-top: 20px;
+    padding: 5px 28px;
+    background-color: rgb(31, 141, 31);
+    border: 2px solid rgb(104, 177, 37);
+    border-radius: 0.3em;
+    font-family: 'Slackey', cursive;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.play:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.play:active {
+    transform: translateY(2px);
+}
+
+.settings {
+    margin-top: 20px;
+    padding: 5px 28px;
+    background-color: rgb(31, 141, 31);
+    border: 2px solid rgb(104, 177, 37);
+    border-radius: 0.1em;
+    color: white;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+form button:disabled {
+    background-color: rgb(167, 177, 167);
+    border: 2px solid rgb(191, 192, 190);
+    color: rgb(102, 100, 99);
+    cursor: default;
+    pointer-events: none;
+}

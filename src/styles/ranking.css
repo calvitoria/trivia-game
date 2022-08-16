@@ -1,0 +1,75 @@
+.main-ranking {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('https://user-images.githubusercontent.com/95686401/177052141-341824e6-ea23-4fb6-997a-55884902f54d.jpg');
+    background-size: cover;
+    font-family: 'Slackey', cursive;
+}
+
+.main-ranking h1 {
+   margin-left: 35px;
+   font-family: 'Slackey', cursive;
+   font-size: 30px;
+   margin-bottom: 10px;
+   color: aliceblue;
+   -webkit-text-stroke: 2px rgb(122, 58, 4); /* width and color */
+}
+
+.ranking {
+    text-align: center;
+    background-image: url('https://user-images.githubusercontent.com/95686401/177050479-f30f5e61-89fe-4204-95bc-e7cd88951e36.png');
+    background-size: cover;
+    height: 100px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ranking ol {
+    font-weight: 900;
+}
+
+.ranking li, p{
+    font-family: 'Slackey', cursive;
+    color: aliceblue;
+    font-size: 20px;
+   -webkit-text-stroke: 1px rgb(63, 28, 1); /* width and color */
+}
+
+.main-ranking button {
+    margin-top: 20px;
+    padding: 5px 15px;
+    margin-left: 35px;
+    background-color: rgb(31, 141, 31);
+    border: 2px solid rgb(104, 177, 37);
+    border-radius: 0.3em;
+    font-family: 'Slackey', cursive;
+    color: white;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.main-ranking button:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+}
+
+.main-ranking button:active {
+    transform: translateY(2px);
+}
+
+.wrapper-ranking {
+    background-color: rgba(240, 248, 255, 0.445);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px 35px 0;
+    border-radius: 1em;
+}
