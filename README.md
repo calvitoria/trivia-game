@@ -13,5 +13,5 @@ This project was developed by Calvitoria (me), [Mayara](https://github.com/mayar
 </div>
 
 <div>
-   <img align="center" alt="capa" src="https://user-images.githubusercontent.com/95686401/175836543-7ef72fb9-db77-42bd-ba76-e120a61b43a5.png" />
+   <img align="center" alt="capa" src="https://user-images.githubusercontent.com/95686401/201725174-cbebb21b-7951-4231-a898-ce52503c459e.png" />
 </div>
